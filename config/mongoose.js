@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // const uri = process.env.HABIT_URI;
 
 
-mongoose.connect(process.env.MONGO_URI);
+mongoose.connect("mongodb+srv://kavyabanan8498:czSIbyv9GPmnLxuW@cluster0.14kzkde.mongodb.net/");
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'DB Error'));
